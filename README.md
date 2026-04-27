@@ -1,3 +1,7 @@
+# My-portfolio
+More than a portfolio, this is how I translate ideas into interfaces. Using Vite for lightning-fast builds, Tailwind for clean UI, and Framer Motion for seamless animations, every section is crafted to feel intuitive and dynamic.
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
