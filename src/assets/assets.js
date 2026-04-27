@@ -106,7 +106,7 @@ export const projects = [
     tech: ["Next.js", "Tailwind CSS", "Framer Motion", "Markdown"],
     icons: [],
     demo: "#",
-    code: "#",
+    code: "https://github.com/Naila1772/Spotify-Clone.git",
   }
 ];
 
