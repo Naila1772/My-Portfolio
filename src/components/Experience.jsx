@@ -12,24 +12,25 @@ export default function Experience() {
             id="experience"
             className="py-20 bg-dark-100"
         >
-            <div className='container mx-auto px-6'>
-                <h2 className="text-white text-4xl font-bold mb-4 text-center">My <span className="text-purple">Experience</span></h2>
-                <p className='text-gray-400 text-center max-w-2xl mx-auto mb-16'>My professional journey and key milestones</p>
-                <div className='max-w-3xl mx-auto'>
-                    <div className='space-y-12'>
+            <div className='mx-auto max-w-6xl px-4 sm:px-6 lg:px-8'>
+                <h2 className="mb-4 text-center text-3xl font-bold text-white sm:text-4xl">My <span className="text-purple">Experience</span></h2>
+                <p className='mx-auto mb-10 max-w-2xl text-center text-gray-400 sm:mb-16'>My professional journey and key milestones</p>
+                <div className='mx-auto max-w-3xl'>
+                    <div className='space-y-8 sm:space-y-12'>
                         {
                             workData.map((work, index) => (
-                                <div key={index} className='relative pl-12 before:content-[""] before:absolute before:left-0 before:top-0 before:w-[2px] before:h-full before:bg-purple cursor-pointer hover:-translate-y-2 transition-all duration-300'
+                                <div key={index} className='relative pl-8 cursor-pointer transition-all duration-300 hover:-translate-y-2 sm:pl-12'
                                 >
                                   {/*timeline dot*/}
-                                  <div className='absolute left-[-0.5rem] top-0 w-6 h-6 rounded-full bg-purple'></div>
+                                  <div className='absolute left-0 top-0 h-4 w-4 rounded-full bg-purple sm:h-5 sm:w-5'></div>
+                                  <div className='absolute left-[0.37rem] top-0 h-full w-[2px] bg-purple sm:left-[0.55rem]'></div>
                                     {/*content box*/}
-                                    <div className="bg-dark-300 rounded-2xl p-6">
-                                       <div className="flex justify-between items-start mb-2 text-white">
-                                        <h3 className='text-xl font-semibold'>{work.role}</h3>
-                                        <span className='px-3 py-1 bg-purple/20 text-purple rounded-full text-xs md:text-sm'>{work.duration}</span>
+                                    <div className="rounded-2xl bg-dark-300 p-4 sm:p-6">
+                                       <div className="mb-2 flex flex-col gap-2 text-white sm:flex-row sm:items-start sm:justify-between">
+                                        <h3 className='text-lg font-semibold sm:text-xl'>{work.role}</h3>
+                                        <span className='rounded-full bg-purple/20 px-3 py-1 text-xs text-purple sm:text-sm'>{work.duration}</span>
                                        </div>
-                                        <p className='text-gray-400 mb-2'>{work.company}</p>
+                                        <p className='mb-2 text-gray-400'>{work.company}</p>
                                         <p className='text-gray-300'>{work.description}</p>
 
                                     </div>

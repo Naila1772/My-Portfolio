@@ -3,8 +3,8 @@ import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTo
 import profile from './profile.jpeg';
 import about from './about.jpeg';
 import projectImg1 from './project1.avif';
-import projectImg2 from './project2.avif';
-import projectImg3 from './project3.avif';
+import projectImg2 from './project2.png';
+import projectImg3 from './project3.png';
 
 
 export const assets = {
@@ -22,12 +22,6 @@ export const aboutInfo = [
       title: 'Innovative',
       description: 'I love creating unique solutions to complex problems with cutting-edge technologies.',
       color: 'text-purple'
-    },
-    {
-      icon: FaPaintBrush,
-      title: 'Design Oriented',
-      description: 'Beautiful design and user experience are at the heart of everything I create.',
-      color: 'text-pink'
     },
     {
       icon: FaCode,
@@ -82,31 +76,31 @@ export const skills = [
 
 export const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-featured online store with shopping cart, user authentication, and payment processing.",
+    title: "Tours and Travels App",
+    description: "A full-stack application for exploring tours and travel packages with user authentication and booking features.",
     image: projectImg1,
-    tech: ["React", "Node.js", "MongoDB", "Stripe"],
+    tech: ["React", "Node.js", "MongoDB"],
     icons: [],
     demo: "#",
-    code: "#",
+    code: "https://github.com/Naila1772/Tours-and-Travel.git",
   },
   {
-    title: "spotify clone",
-    description: "A music streaming app with playlist management, search functionality, and real-time updates.",
+    title: "Spotify Clone",
+    description: "A music streaming app clone with static dashboard and basic sound adjusting functionalities.",
     image: projectImg2,
     tech: ["HTML", "CSS", "JavaScript"],
     icons: [ ],
-    demo: "#",
-    code: "#",
+    demo: "https://spotify-clone-bmad.vercel.app/",
+    code: "https://github.com/Naila1772/Spotify-Clone.git",
   },
   {
-    title: "Portfolio Website",
-    description: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
+    title: "Weather App",
+    description: "A simple weather application that displays current conditions and forecasts for any location.",
     image: projectImg3,
-    tech: ["Next.js", "Tailwind CSS", "Framer Motion", "Markdown"],
+    tech: ["React", "OpenWeatherMap API"],
     icons: [],
-    demo: "#",
-    code: "https://github.com/Naila1772/Spotify-Clone.git",
+    demo: "https://weather-app-omega-plum-39.vercel.app/",
+    code: "https://github.com/Naila1772/Weather-App.git",
   }
 ];
 
@@ -115,9 +109,16 @@ export const workData = [
   {
     role: "Web Developer",
     company: "Apex Circle",
-    duration: "Present",
+    duration: "9 months",
     description:
-      "Developed and maintained web applications for National-level hackathons, focusing on responsive design and performance optimization.",
+      "Developed and maintained web applications for National-level hackathons, focusing on responsive design and performance optimization. Led a team of 4 developers to implement new features and improve user experience.",
+    color: "pink"
+  },
+  {
+    role: "Web Developer",
+    company: "Kannovac Technology",
+    duration: "6 months",
+    description:"Worked on front-end development for various client projects, utilizing React and Tailwind CSS to create dynamic and user-friendly interfaces. Collaborated with designers and back-end developers to ensure seamless integration of features.",
     color: "pink"
   }
 ];
