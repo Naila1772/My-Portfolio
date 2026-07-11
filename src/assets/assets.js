@@ -2,7 +2,7 @@ import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTo
 
 import profile from './profile.jpeg';
 import about from './about.jpeg';
-import projectImg1 from './project1.avif';
+import projectImg1 from './project1.png';
 import projectImg2 from './project2.png';
 import projectImg3 from './project3.png';
 
@@ -81,7 +81,7 @@ export const projects = [
     image: projectImg1,
     tech: ["React", "Node.js", "MongoDB"],
     icons: [],
-    demo: "#",
+    demo: "https://tours-and-travel-qe4e.vercel.app/",
     code: "https://github.com/Naila1772/Tours-and-Travel.git",
   },
   {
